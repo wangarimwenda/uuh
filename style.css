@@ -1,0 +1,28 @@
+.myButtons{
+    font-size: 4rem;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: hsl(240, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+}
+
+
+
+#myp{
+    font-size: 4rem;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: chocolate;
+    padding: 10px 15px;
+    background-color: rgb(243, 107, 9);
+    color: hsl(240, 100%, 6%);
+}
+#myImg{
+    font-size: 1rem;
+}

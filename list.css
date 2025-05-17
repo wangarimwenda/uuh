@@ -1,0 +1,51 @@
+#myH1{
+    font-size: 5rem;
+    color: hsl(240, 100%, 50%);
+    margin: 20px;
+}
+#myButtons{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+#div{
+font-size: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    color: red  ;
+}
+.myButton{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+
+.enabled{
+    background-color: hsl(240, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+
+}
+
+.hover{
+box-shadow: 0 0 10px grey;
+font-weight: bold;
+}
+
+.toggle{
+    background-color: hsl(120, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+}
+
+.disabled{
+    background-color: hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 100%);
+}

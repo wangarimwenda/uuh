@@ -1,0 +1,62 @@
+.myButtons{
+    font-size: 2rem;
+    margin: 5px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: hsl(240, 100%, 10%);
+    color: hsl(0, 0%, 100%);
+        z-index: 1000;
+            flex: 1 1 30%;
+    display: flex;
+
+}
+#myc{
+    font-size: 1rem;
+    margin: 1px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: lch(55.51% 98.24 334.93);
+    color: hsl(240, 100%, 6%);
+}
+#myp{
+    font-size: 4rem;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: hsl(240, 100%, 50%);
+    color: hsl(240, 100%, 6%);
+}
+
+#myd{
+    font-size: 4rem;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: lab(49.7% 75.31 61.76);
+    color: hsl(240, 100%, 6%);
+
+}
+.enabled{
+    background-color: hsl(240, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+
+}
+
+.hover{
+box-shadow: 0 0 10px grey;
+font-weight: bold;
+}
+
+.toggle{
+    background-color: hsl(120, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+}
+
+.disabled{
+    background-color: hsl(0, 0%, 50%);
+    color: hsl(0, 0%, 100%);
+}
